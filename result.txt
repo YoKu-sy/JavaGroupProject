@@ -1,75 +1,164 @@
-C:\Users\Glow\.jdks\openjdk-25.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.3\lib\idea_rt.jar=64948" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\dev\JavaGroupProject\out\production\JavaGroupProject;C:\Users\Glow\.m2\repository\org\jetbrains\annotations\26.0.2\annotations-26.0.2.jar main
+C:\Users\Glow\.jdks\openjdk-25.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.3\lib\idea_rt.jar=51036" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\dev\JavaGroupProject\out\production\JavaGroupProject;C:\Users\Glow\.m2\repository\org\jetbrains\annotations\26.0.2\annotations-26.0.2.jar Main
 test 1:
-bubble avg = 26217.0 ns
-merge avg = 69757.0 ns
-quick avg = 1533243.0 ns
+bubble avg = 27170.0 ns
+merge avg = 67665.0 ns
+quick avg = 1574381.0 ns
+
+Top 10 selected locations from Dataset A:
+  1. Candidate{id='L0001', score=10000}
+  2. Candidate{id='L0002', score=9999}
+  3. Candidate{id='L0003', score=9998}
+  4. Candidate{id='L0004', score=9997}
+  5. Candidate{id='L0005', score=9996}
+  6. Candidate{id='L0006', score=9995}
+  7. Candidate{id='L0007', score=9994}
+  8. Candidate{id='L0008', score=9993}
+  9. Candidate{id='L0009', score=9992}
+  10. Candidate{id='L0010', score=9991}
 
 test 2:
-bubble avg = 706743.0 ns
-merge avg = 90804.0 ns
-quick avg = 41084.0 ns
+bubble avg = 684817.0 ns
+merge avg = 84661.0 ns
+quick avg = 40249.0 ns
+
+Top 10 selected locations from Dataset B:
+  1. Candidate{id='L0101', score=10000}
+  2. Candidate{id='L0102', score=9999}
+  3. Candidate{id='L0103', score=9998}
+  4. Candidate{id='L0104', score=9997}
+  5. Candidate{id='L0105', score=9996}
+  6. Candidate{id='L0106', score=9995}
+  7. Candidate{id='L0107', score=9994}
+  8. Candidate{id='L0108', score=9993}
+  9. Candidate{id='L0109', score=9992}
+  10. Candidate{id='L0110', score=9991}
 
 test 3:
-bubble avg = 255449.0 ns
-merge avg = 163941.0 ns
-quick avg = 235434.0 ns
+bubble avg = 237766.0 ns
+merge avg = 125818.0 ns
+quick avg = 244098.0 ns
+
+Top 10 selected locations from Dataset C:
+  1. Candidate{id='L0201', score=5000}
+  2. Candidate{id='L0202', score=5000}
+  3. Candidate{id='L0203', score=5000}
+  4. Candidate{id='L0204', score=5000}
+  5. Candidate{id='L0205', score=5000}
+  6. Candidate{id='L0206', score=5000}
+  7. Candidate{id='L0207', score=5000}
+  8. Candidate{id='L0208', score=5000}
+  9. Candidate{id='L0209', score=5000}
+  10. Candidate{id='L0210', score=5000}
 
 
 进程已结束，退出代码为 0
 
-C:\Users\Glow\.jdks\openjdk-25.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.3\lib\idea_rt.jar=65107" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\dev\JavaGroupProject\out\production\JavaGroupProject;C:\Users\Glow\.m2\repository\org\jetbrains\annotations\26.0.2\annotations-26.0.2.jar main
+C:\Users\Glow\.jdks\openjdk-25.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.3\lib\idea_rt.jar=51091" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\dev\JavaGroupProject\out\production\JavaGroupProject;C:\Users\Glow\.m2\repository\org\jetbrains\annotations\26.0.2\annotations-26.0.2.jar Main
 test 1:
-bubble avg = 28451.0 ns
-merge avg = 65654.0 ns
-quick avg = 1582141.0 ns
+bubble avg = 28253.0 ns
+merge avg = 68674.0 ns
+quick avg = 1602585.0 ns
+
+Top 10 selected locations from Dataset A:
+  1. Candidate{id='L0001', score=10000}
+  2. Candidate{id='L0002', score=9999}
+  3. Candidate{id='L0003', score=9998}
+  4. Candidate{id='L0004', score=9997}
+  5. Candidate{id='L0005', score=9996}
+  6. Candidate{id='L0006', score=9995}
+  7. Candidate{id='L0007', score=9994}
+  8. Candidate{id='L0008', score=9993}
+  9. Candidate{id='L0009', score=9992}
+  10. Candidate{id='L0010', score=9991}
 
 test 2:
-bubble avg = 729807.0 ns
-merge avg = 92158.0 ns
-quick avg = 43800.0 ns
+bubble avg = 692749.0 ns
+merge avg = 85783.0 ns
+quick avg = 39690.0 ns
+
+Top 10 selected locations from Dataset B:
+  1. Candidate{id='L0101', score=10000}
+  2. Candidate{id='L0102', score=9999}
+  3. Candidate{id='L0103', score=9998}
+  4. Candidate{id='L0104', score=9997}
+  5. Candidate{id='L0105', score=9996}
+  6. Candidate{id='L0106', score=9995}
+  7. Candidate{id='L0107', score=9994}
+  8. Candidate{id='L0108', score=9993}
+  9. Candidate{id='L0109', score=9992}
+  10. Candidate{id='L0110', score=9991}
 
 test 3:
-bubble avg = 217427.0 ns
-merge avg = 113062.0 ns
-quick avg = 208440.0 ns
+bubble avg = 215518.0 ns
+merge avg = 113015.0 ns
+quick avg = 205921.0 ns
+
+Top 10 selected locations from Dataset C:
+  1. Candidate{id='L0201', score=5000}
+  2. Candidate{id='L0202', score=5000}
+  3. Candidate{id='L0203', score=5000}
+  4. Candidate{id='L0204', score=5000}
+  5. Candidate{id='L0205', score=5000}
+  6. Candidate{id='L0206', score=5000}
+  7. Candidate{id='L0207', score=5000}
+  8. Candidate{id='L0208', score=5000}
+  9. Candidate{id='L0209', score=5000}
+  10. Candidate{id='L0210', score=5000}
 
 
 进程已结束，退出代码为 0
 
-C:\Users\Glow\.jdks\openjdk-25.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.3\lib\idea_rt.jar=65122" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\dev\JavaGroupProject\out\production\JavaGroupProject;C:\Users\Glow\.m2\repository\org\jetbrains\annotations\26.0.2\annotations-26.0.2.jar main
+C:\Users\Glow\.jdks\openjdk-25.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.3\lib\idea_rt.jar=51091" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\dev\JavaGroupProject\out\production\JavaGroupProject;C:\Users\Glow\.m2\repository\org\jetbrains\annotations\26.0.2\annotations-26.0.2.jar Main
 test 1:
-bubble avg = 26998.0 ns
-merge avg = 66717.0 ns
-quick avg = 1508812.0 ns
+bubble avg = 28253.0 ns
+merge avg = 68674.0 ns
+quick avg = 1602585.0 ns
+
+Top 10 selected locations from Dataset A:
+  1. Candidate{id='L0001', score=10000}
+  2. Candidate{id='L0002', score=9999}
+  3. Candidate{id='L0003', score=9998}
+  4. Candidate{id='L0004', score=9997}
+  5. Candidate{id='L0005', score=9996}
+  6. Candidate{id='L0006', score=9995}
+  7. Candidate{id='L0007', score=9994}
+  8. Candidate{id='L0008', score=9993}
+  9. Candidate{id='L0009', score=9992}
+  10. Candidate{id='L0010', score=9991}
 
 test 2:
-bubble avg = 673609.0 ns
-merge avg = 88090.0 ns
-quick avg = 37639.0 ns
+bubble avg = 692749.0 ns
+merge avg = 85783.0 ns
+quick avg = 39690.0 ns
+
+Top 10 selected locations from Dataset B:
+  1. Candidate{id='L0101', score=10000}
+  2. Candidate{id='L0102', score=9999}
+  3. Candidate{id='L0103', score=9998}
+  4. Candidate{id='L0104', score=9997}
+  5. Candidate{id='L0105', score=9996}
+  6. Candidate{id='L0106', score=9995}
+  7. Candidate{id='L0107', score=9994}
+  8. Candidate{id='L0108', score=9993}
+  9. Candidate{id='L0109', score=9992}
+  10. Candidate{id='L0110', score=9991}
 
 test 3:
-bubble avg = 204492.0 ns
-merge avg = 133421.0 ns
-quick avg = 192028.0 ns
+bubble avg = 215518.0 ns
+merge avg = 113015.0 ns
+quick avg = 205921.0 ns
 
-
-进程已结束，退出代码为 0
-
-C:\Users\Glow\.jdks\openjdk-25.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.3\lib\idea_rt.jar=65144" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\dev\JavaGroupProject\out\production\JavaGroupProject;C:\Users\Glow\.m2\repository\org\jetbrains\annotations\26.0.2\annotations-26.0.2.jar main
-test 1:
-bubble avg = 27976.0 ns
-merge avg = 69221.0 ns
-quick avg = 1524216.0 ns
-
-test 2:
-bubble avg = 710034.0 ns
-merge avg = 91494.0 ns
-quick avg = 42480.0 ns
-
-test 3:
-bubble avg = 222206.0 ns
-merge avg = 142672.0 ns
-quick avg = 223697.0 ns
+Top 10 selected locations from Dataset C:
+  1. Candidate{id='L0201', score=5000}
+  2. Candidate{id='L0202', score=5000}
+  3. Candidate{id='L0203', score=5000}
+  4. Candidate{id='L0204', score=5000}
+  5. Candidate{id='L0205', score=5000}
+  6. Candidate{id='L0206', score=5000}
+  7. Candidate{id='L0207', score=5000}
+  8. Candidate{id='L0208', score=5000}
+  9. Candidate{id='L0209', score=5000}
+  10. Candidate{id='L0210', score=5000}
 
 
 进程已结束，退出代码为 0
