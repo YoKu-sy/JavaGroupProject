@@ -1,0 +1,56 @@
+C:\Users\Glow\.jdks\openjdk-25.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.3\lib\idea_rt.jar=64948" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\dev\JavaGroupProject\out\production\JavaGroupProject;C:\Users\Glow\.m2\repository\org\jetbrains\annotations\26.0.2\annotations-26.0.2.jar main
+test 1:
+bubble avg = 26217.0 ns
+merge avg = 69757.0 ns
+quick avg = 1533243.0 ns
+
+test 2:
+bubble avg = 706743.0 ns
+merge avg = 90804.0 ns
+quick avg = 41084.0 ns
+
+test 3:
+bubble avg = 255449.0 ns
+merge avg = 163941.0 ns
+quick avg = 235434.0 ns
+
+
+进程已结束，退出代码为 0
+
+C:\Users\Glow\.jdks\openjdk-25.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.3\lib\idea_rt.jar=65107" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\dev\JavaGroupProject\out\production\JavaGroupProject;C:\Users\Glow\.m2\repository\org\jetbrains\annotations\26.0.2\annotations-26.0.2.jar main
+test 1:
+bubble avg = 28451.0 ns
+merge avg = 65654.0 ns
+quick avg = 1582141.0 ns
+
+test 2:
+bubble avg = 729807.0 ns
+merge avg = 92158.0 ns
+quick avg = 43800.0 ns
+
+test 3:
+bubble avg = 217427.0 ns
+merge avg = 113062.0 ns
+quick avg = 208440.0 ns
+
+
+进程已结束，退出代码为 0
+
+C:\Users\Glow\.jdks\openjdk-25.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.3\lib\idea_rt.jar=65122" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\dev\JavaGroupProject\out\production\JavaGroupProject;C:\Users\Glow\.m2\repository\org\jetbrains\annotations\26.0.2\annotations-26.0.2.jar main
+test 1:
+bubble avg = 26998.0 ns
+merge avg = 66717.0 ns
+quick avg = 1508812.0 ns
+
+test 2:
+bubble avg = 673609.0 ns
+merge avg = 88090.0 ns
+quick avg = 37639.0 ns
+
+test 3:
+bubble avg = 204492.0 ns
+merge avg = 133421.0 ns
+quick avg = 192028.0 ns
+
+
+进程已结束，退出代码为 0

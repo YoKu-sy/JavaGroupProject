@@ -1,11 +1,11 @@
 public class Candidate implements Comparable<Candidate> {
     
     // 1. 私有属性 (封装)
-    private String locationId;
-    private double priorityScore;
+    private final String locationId;
+    private final int priorityScore;
 
     // 2. 构造函数
-    public Candidate(String locationId, double priorityScore) {
+    public Candidate(String locationId, int priorityScore) {
         this.locationId = locationId;
         this.priorityScore = priorityScore;
     }
@@ -15,7 +15,7 @@ public class Candidate implements Comparable<Candidate> {
         return locationId;
     }
 
-    public double getPriorityScore() {
+    public int getPriorityScore() {
         return priorityScore;
     }
 
@@ -25,7 +25,7 @@ public class Candidate implements Comparable<Candidate> {
         // 第一步：比较 priority_score (降序)
         // 注意：Double.compare(d1, d2) 默认是升序。
         // 为了实现降序，我们将 other 的分数放在前面，当前对象 this 的分数放在后面。
-        int scoreComparison = Double.compare(other.priorityScore, this.priorityScore);
+        int scoreComparison = Integer.compare(other.priorityScore, this.priorityScore);
         
         // 如果分数不相等，直接返回分数的比较结果
         if (scoreComparison != 0) {
