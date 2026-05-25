@@ -18,37 +18,24 @@ public class PathResult<T> {
         return totalCost;
     }
 
-    // check if we can go there or not
     public boolean isReachable() {
-        if (path == null) {
-            return false;
-        }
-        if (path.isEmpty() == true) {
-            return false;
-        }
-        return true; // if not null and not empty, it means we can reach
+        return path != null && !path.isEmpty();
     }
 
     @Override
     public String toString() {
-        if (isReachable() == false) {
+        if (!isReachable()) {
             return "No path found ! cost is infinity";
         }
 
-        // make string to show the path result
-        String finalResultString = "";
-
+        StringBuilder sb = new StringBuilder();
         for (int i = 0; i < path.size(); i++) {
-            finalResultString = finalResultString + path.get(i);
-
-            // add arrow if it is not the last one
+            sb.append(path.get(i));
             if (i != path.size() - 1) {
-                finalResultString = finalResultString + " -> ";
+                sb.append(" -> ");
             }
         }
-
-        finalResultString = finalResultString + " (cost = " + totalCost + ")";
-
-        return finalResultString;
+        sb.append(" (cost = ").append(totalCost).append(")");
+        return sb.toString();
     }
 }

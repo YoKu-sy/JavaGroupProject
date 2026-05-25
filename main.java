@@ -5,13 +5,13 @@ public class Main {
     public static void main(String[] args) {
         Candidate[][] testContext = new Candidate[3][];
         // read csv file by lambda
-        testContext[0] = CsvReader.ReadCsv("src/candidates_A.csv",
+        testContext[0] = CsvReader.readCsv("src/candidates_A.csv",
                 row -> new Candidate(row[0], Integer.parseInt(row[1]))
         ).toArray(new Candidate[0]);
-        testContext[1] = CsvReader.ReadCsv("src/candidates_B.csv",
+        testContext[1] = CsvReader.readCsv("src/candidates_B.csv",
                 row -> new Candidate(row[0], Integer.parseInt(row[1]))
         ).toArray(new Candidate[0]);
-        testContext[2] = CsvReader.ReadCsv("src/candidates_C.csv",
+        testContext[2] = CsvReader.readCsv("src/candidates_C.csv",
                 row -> new Candidate(row[0], Integer.parseInt(row[1]))
         ).toArray(new Candidate[0]);
 
@@ -64,7 +64,7 @@ public class Main {
                 System.out.println("rank " + (i + 1) + " is: " + sorted[i].toString());
             }
             System.out.println(""); // just print empty line
-            testNum = testNum + 1;
+            testNum++;
 
         }
 
@@ -73,7 +73,7 @@ public class Main {
         System.out.println("");
 
         // load graph from path.csv
-        List<Edge<String>> edges = CsvReader.ReadCsv("src/paths.csv",
+        List<Edge<String>> edges = CsvReader.readCsv("src/paths.csv",
                 row -> new Edge<>(row[0], row[1], Integer.parseInt(row[2])));
         UndirectedWeightedGraph<String> graph = new UndirectedWeightedGraph<>();
 
@@ -136,9 +136,8 @@ public class Main {
     public static double average(long[] arr) {
         long sum = 0;
         for (int i = 0; i < arr.length; i++) {
-            sum = sum + arr[i];
+            sum += arr[i];
         }
-        double result = (double) sum / arr.length;
-        return result;
+        return (double) sum / arr.length;
     }
 }
