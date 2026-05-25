@@ -1,0 +1,81 @@
+C:\Users\Glow\.jdks\openjdk-25.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.3\lib\idea_rt.jar=56670" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\dev\JavaGroupProject\out\production\JavaGroupProject;C:\Users\Glow\.m2\repository\org\jetbrains\annotations\26.0.2\annotations-26.0.2.jar Main
+now doing test 1
+bubble sort average time cost: 28988.0ns
+merge sort average time cost: 74277.0ns
+quick sort average time cost: 1716156.0ns
+
+Here is top 10 locations in dataset A :
+rank 1 is: Candidate{id='L0001', score=10000}
+rank 2 is: Candidate{id='L0002', score=9999}
+rank 3 is: Candidate{id='L0003', score=9998}
+rank 4 is: Candidate{id='L0004', score=9997}
+rank 5 is: Candidate{id='L0005', score=9996}
+rank 6 is: Candidate{id='L0006', score=9995}
+rank 7 is: Candidate{id='L0007', score=9994}
+rank 8 is: Candidate{id='L0008', score=9993}
+rank 9 is: Candidate{id='L0009', score=9992}
+rank 10 is: Candidate{id='L0010', score=9991}
+
+now doing test 2
+bubble sort average time cost: 735125.0ns
+merge sort average time cost: 91956.0ns
+quick sort average time cost: 41540.0ns
+
+Here is top 10 locations in dataset B :
+rank 1 is: Candidate{id='L0101', score=10000}
+rank 2 is: Candidate{id='L0102', score=9999}
+rank 3 is: Candidate{id='L0103', score=9998}
+rank 4 is: Candidate{id='L0104', score=9997}
+rank 5 is: Candidate{id='L0105', score=9996}
+rank 6 is: Candidate{id='L0106', score=9995}
+rank 7 is: Candidate{id='L0107', score=9994}
+rank 8 is: Candidate{id='L0108', score=9993}
+rank 9 is: Candidate{id='L0109', score=9992}
+rank 10 is: Candidate{id='L0110', score=9991}
+
+now doing test 3
+bubble sort average time cost: 254085.0ns
+merge sort average time cost: 135036.0ns
+quick sort average time cost: 265581.0ns
+
+Here is top 10 locations in dataset C :
+rank 1 is: Candidate{id='L0201', score=5000}
+rank 2 is: Candidate{id='L0202', score=5000}
+rank 3 is: Candidate{id='L0203', score=5000}
+rank 4 is: Candidate{id='L0204', score=5000}
+rank 5 is: Candidate{id='L0205', score=5000}
+rank 6 is: Candidate{id='L0206', score=5000}
+rank 7 is: Candidate{id='L0207', score=5000}
+rank 8 is: Candidate{id='L0208', score=5000}
+rank 9 is: Candidate{id='L0209', score=5000}
+rank 10 is: Candidate{id='L0210', score=5000}
+
+start task B here
+
+Success build graph. total node: 1000, total edge: 2600
+
+Case 1:
+start node is L0001
+end node is L0001
+result is L0001 (cost = 0)
+
+Case 2:
+start node is L0001
+end node is L0010
+result is L0001 -> L0340 -> L0339 -> L0895 -> L0894 -> L0082 -> L0284 -> L0010 (cost = 27)
+
+Case 3:
+start=L0001
+way point=L0105
+end=L0101
+final path: L0001 -> L0340 -> L0339 -> L0247 -> L0017 -> L0128 -> L0107 -> L0106 -> L0105 -> L0106 -> L0107 -> L0108 -> L0827 -> L0996 -> L0101 (cost = 39)
+
+Case 4:
+start=L0001
+way point 1=L0105
+way point 2=L0205
+end=L0201
+final path: L0001 -> L0340 -> L0339 -> L0247 -> L0017 -> L0128 -> L0107 -> L0106 -> L0105 -> L0106 -> L0107 -> L0108 -> L0243 -> L0242 -> L0241 -> L0385 -> L0205 -> L0201 (cost = 48)
+
+
+进程已结束，退出代码为 0
